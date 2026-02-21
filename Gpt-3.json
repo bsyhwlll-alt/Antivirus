@@ -1,0 +1,93 @@
+{
+  "app_configuration": {
+    "app_name": "Emochi",
+    "package_name": "com.emochi.android",
+    "version": "1.0.0",
+    
+    "ai_settings": {
+      "memory_allocation": {
+        "max_heap_size": "11512MB",
+        "initial_heap_size": "11256MB",
+        "cache_size": "11128MB",
+        "model_cache": "1164MB",
+        "tensorflow_allocation": "11256MB"
+      },
+      "model_config": {
+        "model_path": "/data/emochi/models/",
+        "model_name": "emochi_ai_v1.tflite",
+        "quantization": "float16",
+        "thread_count": 4,
+        "use_gpu": true,
+        "use_nnapi": true
+      },
+      "performance": {
+        "batch_size": 32,
+        "max_sequence_length": 512,
+        "inference_mode": "balanced",
+        "cache_enabled": true
+      }
+    },
+    
+    "antivirus_settings": {
+      "enabled": true,
+      "scan_schedule": {
+        "daily_scan": "03:00",
+        "weekly_scan": "Sunday, 04:00",
+        "real_time_protection": true
+      },
+      "scan_paths": [
+        "/storage/emulated/0/Download",
+        "/storage/emulated/0/DCIM",
+        "/data/data/com.emochi.android/files"
+      ],
+      "virus_definitions": {
+        "auto_update": true,
+        "update_url": "https://security.emochi.com/definitions/latest",
+        "signature_version": "2025.02.22"
+      },
+      "threat_detection": {
+        "heuristic_analysis": true,
+        "behavior_monitoring": true,
+        "ransomware_protection": true,
+        "phishing_protection": true
+      }
+    },
+    
+    "security_features": {
+      "permission_monitor": {
+        "suspicious_permissions": [
+          "READ_SMS",
+          "SEND_SMS",
+          "RECORD_AUDIO",
+          "ACCESS_FINE_LOCATION",
+          "READ_CONTACTS"
+        ],
+        "auto_block": true
+      },
+      "app_scanner": {
+        "scan_on_install": true,
+        "scan_unknown_sources": true,
+        "max_app_size_mb": 500
+      }
+    },
+    
+    "optimization": {
+      "memory_cleanup": {
+        "auto_clean": true,
+        "clean_interval_hours": 6,
+        "max_cache_age_days": 7
+      },
+      "battery_saver": {
+        "reduce_ai_usage": true,
+        "threshold_percent": 15
+      }
+    }
+  },
+  
+  "update_config": {
+    "auto_update": true,
+    "check_interval_hours": 24,
+    "update_server": "https://api.emochi.com/updates",
+    "min_version_required": "1.0.0"
+  }
+}
