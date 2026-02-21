@@ -8,3 +8,44 @@ dist/
 build/
 *.egg-info/
 
+# test files
+quarantine
+log.txt
+my_test_dir/
+Antivirus.ini
+antivirus.ini
+test_signature_generator/inf_file_tree.txt
+отчет/
+test.exe
+
+# system files
+-p/
+venv/
+.idea/
+.vscode/
+*.vscode/
+*.idea/
+antivirus.txt
+# build files
+/build/
+.DS_Store
+Thumbs.db
+CMakeCache.txt
+antivirus.txt
+MCache.txt
+
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.log
+
+# something
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.dSYM
+*.swp
+*.pdf 
