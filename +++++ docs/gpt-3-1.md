@@ -26,6 +26,8 @@ https://github.com/bsyhwlll-alt/Antivirus/blob/main/.gitignore
 
 https://github.com/bsyhwlll-alt/Antivirus/blob/main/AI%20Memory.cfg
 
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/AIMemoryManager.python
+
 Antivirus=true
 
 Antivirus=enable
