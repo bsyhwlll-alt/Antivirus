@@ -1,0 +1,5 @@
+<!-- В AndroidManifest.xml добавьте для производительности -->
+<application
+    android:largeHeap="true"
+    android:hardwareAccelerated="true">
+</application>
