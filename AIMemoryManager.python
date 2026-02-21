@@ -1,0 +1,68 @@
+import json
+import configparser
+import os
+
+class AIMemoryManager:
+    def __init__(self, config_file='ai_memory.json'):
+        self.config = self.load_config(config_file)
+        self.memory_pool = {}
+        self.context_history = []
+        self.memory_usage = 0
+        
+    def load_config(self, config_file):
+        """Загрузка конфигурации"""
+        if config_file.endswith('.json'):
+            with open(config_file, 'r') as f:
+                return json.load(f)
+        elif config_file.endswith('.ini') or config_file.endswith('.cfg'):
+            config = configparser.ConfigParser()
+            config.read(config_file)
+            return config
+            
+    def increase_memory(self, additional_memory_mb):
+        """Увеличение доступной памяти"""
+        current_limit = self.get_memory_limit()
+        new_limit = current_limit + additional_memory_mb
+        
+        # Обновляем конфигурацию
+        if isinstance(self.config, dict):
+            self.config['ai_memory_config']['memory_limit'] = new_limit
+        else:
+            self.config.set('AI_MEMORY', 'memory_limit', str(new_limit))
+            
+        self.save_config()
+        return f"Память увеличена до {new_limit} MB"
+    
+    def get_memory_limit(self):
+        """Получение текущего лимита памяти"""
+        if isinstance(self.config, dict):
+            return self.config['ai_memory_config']['memory_limit']
+        else:
+            return int(self.config.get('AI_MEMORY', 'memory_limit'))
+    
+    def save_config(self):
+        """Сохранение конфигурации"""
+        if isinstance(self.config, dict):
+            with open('ai_memory_updated.json', 'w') as f:
+                json.dump(self.config, f, indent=2)
+        else:
+            with open('ai_memory_updated.ini', 'w') as f:
+                self.config.write(f)
+    
+    def optimize_memory(self):
+        """Оптимизация использования памяти"""
+        # Очистка неиспользуемых данных
+        self.context_history = self.context_history[-5000:]  # храним только последние 5000
+        self.memory_pool.clear()
+        
+        # Принудительная сборка мусора
+        import gc
+        gc.collect()
+        
+        return "Память оптимизирована"
+
+# Пример использования
+manager = AIMemoryManager('ai_memory.json')
+result = manager.increase_memory(512)  # Увеличиваем на 512 MB
+print(result)
+manager.optimize_memory()
