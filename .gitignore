@@ -34,6 +34,10 @@ CMakeCache.txt
 antivirus.txt
 MCache.txt
 antivinrus.txt
+antivinrus.ini
+antivirus.json
+MCache.json
+antivinrus.blk
 
 CMakeFiles/
 cmake_install.cmake
