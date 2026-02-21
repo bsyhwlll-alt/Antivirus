@@ -5,6 +5,7 @@ antivirus
 # antivirus
 
 #Antivirus Ai
+
 Antivirus Ai
 
 Учебный антивирус на Python для изучения основ кибербезопасности.
