@@ -14,6 +14,8 @@ log.txt
 my_test_dir/
 Antivirus.ini
 antivirus.ini
+*.ini
+*.cfg
 test_signature_generator/inf_file_tree.txt
 отчет/
 test.exe
