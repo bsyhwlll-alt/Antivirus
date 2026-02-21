@@ -22,6 +22,10 @@ declined, etc.
 
 https://github.com/bsyhwlll-alt/Antivirus/blob/main/README.md
 
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/.gitignore
+
+.
+
 Antivirus=true
 
 Antivirus=enable
