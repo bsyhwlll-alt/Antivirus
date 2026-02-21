@@ -11,8 +11,7 @@ currently being supported with security updates.
 | 5.0.x   | :x:                |
 | 4.0.x   | :white_check_mark: |
 | < 4.0   | :x:                |
-| < 0.0   | ⚫check_mark::|
-
+| < 0.0   | ⚫
 ## Reporting a Vulnerability
 
 Use this section to tell people how to report a vulnerability.
