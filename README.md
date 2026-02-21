@@ -28,7 +28,7 @@ python src/core/scanner.py
 
 1. **Создайте репозиторий:**
    * зайдите на GitHub, нажмите **«New»**;
-   * задайте имя (`MyAntivirus`), описание, выберите **Public**;
+   * задайте имя (`Antivirus`), описание, выберите **Public**;
    * отметьте **«Add a README file»**, **«Add .gitignore (Python)»**, **«Choose a license (MIT)»**.
 
 2. **Клонируйте репозиторий на компьютер:**
