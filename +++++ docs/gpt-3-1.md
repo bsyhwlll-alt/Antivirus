@@ -24,7 +24,7 @@ https://github.com/bsyhwlll-alt/Antivirus/blob/main/README.md
 
 https://github.com/bsyhwlll-alt/Antivirus/blob/main/.gitignore
 
-.
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/AI%20Memory.cfg
 
 Antivirus=true
 
