@@ -65,6 +65,7 @@ git@github.com:bsyhwlll-alt/Antivirus.git
 gh repo clone bsyhwlll-alt/Antivirus
 https://bsyhwlll-alt.github.io/Antivirus/
 
+antivirus anti all
  is a sophisticated malware designed to corrupt memory. It targets specific neural pathways associated with long-term memory storage
 .....
 memory storage
