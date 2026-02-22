@@ -45,3 +45,23 @@ python src/core/scanner.py
 git add .
 git commit -m "Initial commit: basic antivirus structure"
 git push origin main
+
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/README.md
+
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/.gitignore
+
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/AI%20Memory.cfg
+
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/AIMemoryManager.python
+
+https://github.com/bsyhwlll-alt/Antivirus/blob/main/AI_MEMORY.ini
+
+Antivirus=true
+
+Antivirus=enable
+
+Antivirus=enabled
+
+Antivirus=yes
+
+Antivirus=1
