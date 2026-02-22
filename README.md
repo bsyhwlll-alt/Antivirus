@@ -60,6 +60,8 @@ https://github.com/bsyhwlll-alt/Antivirus/tree/main/%2B%2B%2B%2B%2B%20docs
 
 https://github.com/bsyhwlll-alt/Antivirus/tree/main?tab=readme-ov-file
 
+https://github.com/bsyhwlll-alt/Antivirus.git
+
 Antivirus=true
 
 Antivirus=enable
