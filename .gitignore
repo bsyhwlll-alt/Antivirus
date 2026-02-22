@@ -40,6 +40,12 @@ antivinrus.ini
 antivirus.json
 MCache.json
 antivinrus.blk
++++++ docs/Protect.ini
++++++ docs/Console.ini
++++++ docs/Protection.ini
++++++ docs/Console.ini
++++++ docs/AntiClear.ini
++++++ docs/ClearDelet.ini
 
 CMakeFiles/
 cmake_install.cmake
