@@ -62,6 +62,8 @@ https://github.com/bsyhwlll-alt/Antivirus/tree/main?tab=readme-ov-file
 
 https://github.com/bsyhwlll-alt/Antivirus.git
 git@github.com:bsyhwlll-alt/Antivirus.git
+gh repo clone bsyhwlll-alt/Antivirus
+
 Antivirus=true
 
 Antivirus=enable
