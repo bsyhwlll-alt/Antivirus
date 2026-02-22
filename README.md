@@ -56,6 +56,8 @@ https://github.com/bsyhwlll-alt/Antivirus/blob/main/AIMemoryManager.python
 
 https://github.com/bsyhwlll-alt/Antivirus/blob/main/AI_MEMORY.ini
 
+https://github.com/bsyhwlll-alt/Antivirus/tree/main/%2B%2B%2B%2B%2B%20docs
+
 Antivirus=true
 
 Antivirus=enable
