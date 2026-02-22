@@ -58,6 +58,8 @@ https://github.com/bsyhwlll-alt/Antivirus/blob/main/AI_MEMORY.ini
 
 https://github.com/bsyhwlll-alt/Antivirus/tree/main/%2B%2B%2B%2B%2B%20docs
 
+https://github.com/bsyhwlll-alt/Antivirus/tree/main?tab=readme-ov-file
+
 Antivirus=true
 
 Antivirus=enable
