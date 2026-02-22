@@ -1,13 +1,13 @@
 {
   "ai_memory_config": {
     "enabled": true,
-    "memory_limit": 1024,
+    "memory_limit": 102400,
     "memory_unit": "MB",
-    "max_context_length": 8192,
-    "history_size": 1000,
+    "max_context_length": 81920,
+    "history_size": 10000,
     "buffer_size": 524288,
     "cache_enabled": true,
-    "cache_size": 2048,
+    "cache_size": 20480,
     "persistent_storage": true,
     "storage_path": "/var/ai/memory",
     "compression": true,
